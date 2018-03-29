@@ -1,0 +1,174 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Is Charade a good book?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Charade",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What do other people think about Titmuss Regained?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 33,
+            "end": 49,
+            "value": "Titmuss Regained",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How many stars does Under the Net have?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "Under the Net",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How is Pale Fire rated?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Pale Fire",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the general opinion about Fireflies?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Fireflies",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How do others experience The Sacred book of the Werewolf?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 25,
+            "end": 56,
+            "value": "The Sacred bookName of the Werewolf",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How did other people experience my search for warren harding?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 32,
+            "end": 60,
+            "value": "my search for warren harding",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How did other people rate A Dance to the Music of Time?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 26,
+            "end": 54,
+            "value": "A Dance to the Music of Time",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How do others rate a time to be born?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "a time to be born",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Do people like Excellent Women?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "Excellent Women",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How is Less Than Angels reviewed?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Less Than Angels",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Is Zazie in the Metro well received?",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 3,
+            "end": 21,
+            "value": "Zazie in the Metro",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please give me the rating of The Westminster Alice",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 29,
+            "end": 50,
+            "value": "The Westminster Alice",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send the rating of Great Apes",
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "Great Apes",
+            "entity": "bookName"
+          }
+        ]
+      }
+    ]
+  }
+}

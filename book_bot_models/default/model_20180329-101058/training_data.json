@@ -1,0 +1,2037 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "bookName",
+            "value": "War and Peace",
+            "end": 20
+          }
+        ],
+        "text": "What's War and Peace about?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Great Gatsby",
+            "end": 36
+          }
+        ],
+        "text": "Give me the gist of The Great Gatsby"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "Catch-22",
+            "end": 29
+          }
+        ],
+        "text": "Give me a summary of Catch-22"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "'To the Lighthouse'",
+            "end": 40
+          }
+        ],
+        "text": "Can you tell me what 'To the Lighthouse' is about?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "'Slaughterhouse-Five'",
+            "end": 41
+          }
+        ],
+        "text": "What's the story of 'Slaughterhouse-Five'?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "bookName",
+            "value": "Lolita",
+            "end": 22
+          }
+        ],
+        "text": "What happens in Lolita?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "bookName",
+            "value": "Animal Farm",
+            "end": 21
+          }
+        ],
+        "text": "Summarize Animal Farm"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "Pale Fire",
+            "end": 28
+          }
+        ],
+        "text": "What's the plot of Pale Fire?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "bookName",
+            "value": "A Farewell to Arms",
+            "end": 30
+          }
+        ],
+        "text": "How much is A Farewell to Arms?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "'The Moviegoer'",
+            "end": 35
+          }
+        ],
+        "text": "What's the price of 'The Moviegoer'"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "bookName",
+            "value": "Under the net",
+            "end": 13
+          }
+        ],
+        "text": "Under the net, how much for that?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi there!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "How's it going?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "bookName",
+            "value": "Pride and Prejudice",
+            "end": 33
+          }
+        ],
+        "text": "How much does Pride and Prejudice cost?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "bookName",
+            "value": "the perks of being a wallflower",
+            "end": 43
+          }
+        ],
+        "text": "How much is the perks of being a wallflower?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "bookName",
+            "value": "Me Talk Pretty One Day",
+            "end": 34
+          }
+        ],
+        "text": "How much is Me Talk Pretty One Day?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "One Hundred Years of Solitude",
+            "end": 50
+          }
+        ],
+        "text": "Tell me the price of One Hundred Years of Solitude"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Heey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi chatbot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Good night"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "That's all"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Till next time"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Bye bye "
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Sincerely"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Greetz"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Greetings"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Best whishes"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "So long"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "See you"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "bookName",
+            "value": "Death and the Penguin",
+            "end": 31
+          }
+        ],
+        "text": "What does Death and the Penguin cost?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "bookName",
+            "value": "The Debt to Pleasure",
+            "end": 32
+          }
+        ],
+        "text": "How much is The Debt to Pleasure"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "bookName",
+            "value": "changing places",
+            "end": 45
+          }
+        ],
+        "text": "How much do I have to pay for changing places?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "bookName",
+            "value": "Nice Work",
+            "end": 23
+          }
+        ],
+        "text": "How much does Nice Work cost?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Towers of Trebizond",
+            "end": 43
+          }
+        ],
+        "text": "What is the cost of The Towers of Trebizond?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "England, Their England",
+            "end": 43
+          }
+        ],
+        "text": "What is the price of England, Their England?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "whisky galore",
+            "end": 32
+          }
+        ],
+        "text": "What's the cost of whisky galore?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "memoirs of a gnostic dwarf",
+            "end": 46
+          }
+        ],
+        "text": "What's the price of memoirs of a gnostic dwarf?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "bookName",
+            "value": "Tales of the City",
+            "end": 49
+          }
+        ],
+        "text": "How much money do I need to buy Tales of the City?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "bookName",
+            "value": "Bright Lights, Big City",
+            "end": 38
+          }
+        ],
+        "text": "At how much is Bright Lights, Big City priced?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 17,
+            "entity": "bookName",
+            "value": "Puckoon",
+            "end": 24
+          }
+        ],
+        "text": "How expensive is Puckoon?"
+      },
+      {
+        "intent": "price",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "bookName",
+            "value": "The Restraint of Beasts",
+            "end": 37
+          }
+        ],
+        "text": "How costly is The Restraint of Beasts?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "Lucky Jim",
+            "end": 32
+          }
+        ],
+        "text": "What is the summary of Lucky Jim?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "Money",
+            "end": 27
+          }
+        ],
+        "text": "What's the summary of Money?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "the information",
+            "end": 42
+          }
+        ],
+        "text": "Please send the summary of the information"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "bookName",
+            "value": "The Bottle Factory Outing",
+            "end": 55
+          }
+        ],
+        "text": "Please send me the summary of The Bottle Factory Outing"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "According to Queeney",
+            "end": 43
+          }
+        ],
+        "text": "Send me the summary of According to Queeney"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "Flaubert’s Parrot",
+            "end": 38
+          }
+        ],
+        "text": "Give me a summary of Flaubert’s Parrot"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "A History of the World in 10 1/2 Chapters",
+            "end": 64
+          }
+        ],
+        "text": "What is the content of A History of the World in 10 1/2 Chapters?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "Molloy",
+            "end": 28
+          }
+        ],
+        "text": "What's the content of Molloy?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "Zuleika Dobson",
+            "end": 41
+          }
+        ],
+        "text": "Please send the content of Zuleika Dobson"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "bookName",
+            "value": "The Adventures of Augie March",
+            "end": 59
+          }
+        ],
+        "text": "Please send me the content of The Adventures of Augie March"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "The Uncommon Reader",
+            "end": 42
+          }
+        ],
+        "text": "Send me the content of The Uncommon Reader"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "Queen Lucia",
+            "end": 32
+          }
+        ],
+        "text": "Give me a content of Queen Lucia"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "The Ascent of Rum Doodle",
+            "end": 53
+          }
+        ],
+        "text": "What is the short version of The Ascent of Rum Doodle?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "A Good Man in Africa",
+            "end": 48
+          }
+        ],
+        "text": "What's the short version of A Good Man in Africa?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 33,
+            "entity": "bookName",
+            "value": "The History Man",
+            "end": 48
+          }
+        ],
+        "text": "Please send the short version of The History Man"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 36,
+            "entity": "bookName",
+            "value": "No Bed for Bacon",
+            "end": 52
+          }
+        ],
+        "text": "Please send me the short version of No Bed for Bacon"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "Illywhacker",
+            "end": 40
+          }
+        ],
+        "text": "Send me the short version of Illywhacker"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "A Season in Sinji",
+            "end": 44
+          }
+        ],
+        "text": "Give me a short version of A Season in Sinji"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "The Harpole Report",
+            "end": 39
+          }
+        ],
+        "text": "What is the story of The Harpole Report?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Hearing Trumpet",
+            "end": 39
+          }
+        ],
+        "text": "What's the story of The Hearing Trumpet?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Mister Johnson",
+            "end": 39
+          }
+        ],
+        "text": "Please send the story of Mister Johnson"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "The Horse’s Mouth",
+            "end": 45
+          }
+        ],
+        "text": "Please send me the story of The Horse’s Mouth"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "Don Quixote",
+            "end": 32
+          }
+        ],
+        "text": "Send me the story of Don Quixote"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "The Case of the Gilded Fly",
+            "end": 45
+          }
+        ],
+        "text": "Give me a story of The Case of the Gilded Fly"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Just William",
+            "end": 37
+          }
+        ],
+        "text": "What is the storyline of Just William?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "The Provincial Lady",
+            "end": 43
+          }
+        ],
+        "text": "What's the storyline of The Provincial Lady?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "Slouching Towards Kalamazoo",
+            "end": 56
+          }
+        ],
+        "text": "Please send the storyline of Slouching Towards Kalamazoo"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "bookName",
+            "value": "The Pickwick Papers",
+            "end": 51
+          }
+        ],
+        "text": "Please send me the storyline of The Pickwick Papers"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Martin Chuzzlewit",
+            "end": 42
+          }
+        ],
+        "text": "Send me the storyline of Martin Chuzzlewit"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "Jacques the Fatalist and his Master",
+            "end": 58
+          }
+        ],
+        "text": "Give me a storyline of Jacques the Fatalist and his Master"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "A Fairy Tale of New York",
+            "end": 45
+          }
+        ],
+        "text": "What is the topic of A Fairy Tale of New York?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Commitments",
+            "end": 35
+          }
+        ],
+        "text": "What's the topic of The Commitments?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Ennui",
+            "end": 30
+          }
+        ],
+        "text": "Please send the topic of Ennui"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "Bridget Jones’s Diary",
+            "end": 49
+          }
+        ],
+        "text": "Please send me the topic of Bridget Jones’s Diary"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "Joseph Andrews",
+            "end": 35
+          }
+        ],
+        "text": "Send me the topic of Joseph Andrews"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "Tom Jones",
+            "end": 28
+          }
+        ],
+        "text": "Give me a topic of Tom Jones"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "Caprice",
+            "end": 31
+          }
+        ],
+        "text": "What is the abstract of Caprice?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "Bouvard et Pécuchet",
+            "end": 42
+          }
+        ],
+        "text": "What's the abstract of Bouvard et Pécuchet?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "Towards the End of the Morning",
+            "end": 58
+          }
+        ],
+        "text": "Please send the abstract of Towards the End of the Morning"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "bookName",
+            "value": "The Polygots",
+            "end": 43
+          }
+        ],
+        "text": "Please send me the abstract of The Polygots"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "Cold Comfort Farm",
+            "end": 41
+          }
+        ],
+        "text": "Send me the abstract of Cold Comfort Farm"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "Dead Souls",
+            "end": 32
+          }
+        ],
+        "text": "Give me a abstract of Dead Souls"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "Oblomov",
+            "end": 34
+          }
+        ],
+        "text": "What is the description of Oblomov?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "bookName",
+            "value": "The Wind in the Willows",
+            "end": 49
+          }
+        ],
+        "text": "What's the description of The Wind in the Willows?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "bookName",
+            "value": "Brewster’s Millions",
+            "end": 50
+          }
+        ],
+        "text": "Please send the description of Brewster’s Millions"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 34,
+            "entity": "bookName",
+            "value": "Squire Haggard’s Journal",
+            "end": 58
+          }
+        ],
+        "text": "Please send me the description of Squire Haggard’s Journal"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "Our Man in Havana",
+            "end": 44
+          }
+        ],
+        "text": "Send me the description of Our Man in Havana"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Travels with My Aunt",
+            "end": 45
+          }
+        ],
+        "text": "Give me a description of Travels with My Aunt"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Diary of a Nobody",
+            "end": 42
+          }
+        ],
+        "text": "What is the highlight of Diary of a Nobody?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "The Little World of Don Camillo",
+            "end": 55
+          }
+        ],
+        "text": "What's the highlight of The Little World of Don Camillo?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "The Curious Incident of the Dog in the Night-time",
+            "end": 78
+          }
+        ],
+        "text": "Please send the highlight of The Curious Incident of the Dog in the Night-time"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "bookName",
+            "value": "Catch-22",
+            "end": 40
+          }
+        ],
+        "text": "Please send me the highlight of Catch-22"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Mr Blandings Builds His Dream House",
+            "end": 60
+          }
+        ],
+        "text": "Send me the highlight of Mr Blandings Builds His Dream House"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "High Fidelity",
+            "end": 36
+          }
+        ],
+        "text": "Give me a highlight of High Fidelity"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "bookName",
+            "value": "I Served the King of England",
+            "end": 36
+          }
+        ],
+        "text": "What is I Served the King of England about?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "bookName",
+            "value": "The Lecturer’s Tale",
+            "end": 35
+          }
+        ],
+        "text": "What happens in The Lecturer’s Tale?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "Mr Norris Changes Trains",
+            "end": 49
+          }
+        ],
+        "text": "What happens in the book Mr Norris Changes Trains?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Mighty Walzer Howard",
+            "end": 44
+          }
+        ],
+        "text": "What's the story of The Mighty Walzer Howard about?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "Pictures from an Institution",
+            "end": 52
+          }
+        ],
+        "text": "Could you tell me about Pictures from an Institution?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "Three Men in a Boat",
+            "end": 43
+          }
+        ],
+        "text": "Do you have anything on Three Men in a Boat?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "bookName",
+            "value": "Finnegans Wake",
+            "end": 44
+          }
+        ],
+        "text": "Do you have information about Finnegans Wake?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Castle",
+            "end": 30
+          }
+        ],
+        "text": "Do you have info on The Castle?"
+      },
+      {
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "Lake Wobegon Days",
+            "end": 38
+          }
+        ],
+        "text": "Please tell me about Lake Wobegon Days"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "A Far Cry from Kensington",
+            "end": 45
+          }
+        ],
+        "text": "Who's the author of A Far Cry from Kensington?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "The Life and Opinions of Tristram Shandy, Gentleman",
+            "end": 72
+          }
+        ],
+        "text": "Who is the author of The Life and Opinions of Tristram Shandy, Gentleman?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "white man falling",
+            "end": 39
+          }
+        ],
+        "text": "Give me the author of white man falling"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "Handley Cross",
+            "end": 42
+          }
+        ],
+        "text": "Please tell me the author of Handley Cross"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "Tropic of Ruislip",
+            "end": 44
+          }
+        ],
+        "text": "I don't know the author of Tropic of Ruislip"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "bookName",
+            "value": "The Mysterious Stranger",
+            "end": 49
+          }
+        ],
+        "text": "Tell me who the author of The Mysterious Stranger is"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "Decline and Fall",
+            "end": 38
+          }
+        ],
+        "text": "Who's the novelist of Decline and Fall?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "scoop",
+            "end": 28
+          }
+        ],
+        "text": "Who is the novelist of scoop?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "The Loved One",
+            "end": 37
+          }
+        ],
+        "text": "Give me the novelist of The Loved One"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "bookName",
+            "value": "The Wimbledon Poisoner",
+            "end": 53
+          }
+        ],
+        "text": "Please tell me the novelist of The Wimbledon Poisoner"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "Piccadilly Jim",
+            "end": 43
+          }
+        ],
+        "text": "I don't know the novelist of Piccadilly Jim"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "The Poisoned Chocolates Case",
+            "end": 56
+          }
+        ],
+        "text": "Tell me who the novelist of The Poisoned Chocolates Case is"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "bookName",
+            "value": "The Asphalt Jungle",
+            "end": 39
+          }
+        ],
+        "text": "Who's the creator of The Asphalt Jungle?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "No Orchids for Miss Blandish",
+            "end": 50
+          }
+        ],
+        "text": "Who is the creator of No Orchids for Miss Blandish?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "The Riddle of the Sands",
+            "end": 46
+          }
+        ],
+        "text": "Give me the creator of The Riddle of the Sands"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "bookName",
+            "value": "The Murder at the Vicarage",
+            "end": 56
+          }
+        ],
+        "text": "Please tell me the creator of The Murder at the Vicarage"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "postmortem",
+            "end": 38
+          }
+        ],
+        "text": "I don't know the creator of postmortem"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "jurassic park",
+            "end": 40
+          }
+        ],
+        "text": "Tell me who the creator of jurassic park is"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "bookName",
+            "value": "Vendetta",
+            "end": 30
+          }
+        ],
+        "text": "Who's the inventor of Vendetta?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "bookName",
+            "value": "An American Tragedy",
+            "end": 42
+          }
+        ],
+        "text": "Who is the inventor of An American Tragedy?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "bookName",
+            "value": "The Big Nowhere",
+            "end": 39
+          }
+        ],
+        "text": "Give me the inventor of The Big Nowhere?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "bookName",
+            "value": "Brighton Rock",
+            "end": 44
+          }
+        ],
+        "text": "Please tell me the inventor of Brighton Rock"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "American Psycho",
+            "end": 44
+          }
+        ],
+        "text": "I don't know the inventor of American Psycho"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "bookName",
+            "value": "The Glass Key",
+            "end": 41
+          }
+        ],
+        "text": "Tell me who the inventor of The Glass Key is"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "bookName",
+            "value": "The Thin Man",
+            "end": 22
+          }
+        ],
+        "text": "Who wrote The Thin Man?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "black sunday",
+            "end": 37
+          }
+        ],
+        "text": "Which man or woman wrote black sunday?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 17,
+            "entity": "bookName",
+            "value": "The Friends of Eddie Coyle",
+            "end": 43
+          }
+        ],
+        "text": "What woman wrote The Friends of Eddie Coyle?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 41,
+            "entity": "bookName",
+            "value": "A Rage in Harlem",
+            "end": 57
+          }
+        ],
+        "text": "What is the name of the person who wrote A Rage in Harlem?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "bookName",
+            "value": "Cover Her Face",
+            "end": 32
+          }
+        ],
+        "text": "What person wrote Cover Her Face?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "bookName",
+            "value": "The Constant Gardener",
+            "end": 35
+          }
+        ],
+        "text": "Who's book is The Constant Gardener?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "bookName",
+            "value": "Motherless Brooklyn",
+            "end": 34
+          }
+        ],
+        "text": "Who's novel is Motherless Brooklyn?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 12,
+            "entity": "bookName",
+            "value": "Cop Hater",
+            "end": 21
+          }
+        ],
+        "text": "Who created Cop Hater?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "bookName",
+            "value": "Nineteen Seventy Four",
+            "end": 48
+          }
+        ],
+        "text": "Which man or woman created Nineteen Seventy Four?"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "The Laughing Policeman",
+            "end": 41
+          }
+        ],
+        "text": "What women created The Laughing Policeman"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 43,
+            "entity": "bookName",
+            "value": "The Daughter of Time",
+            "end": 63
+          }
+        ],
+        "text": "What is the name of the person who created The Daughter of Time"
+      },
+      {
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "The Face of Another",
+            "end": 39
+          }
+        ],
+        "text": "What person created The Face of Another"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 3,
+            "entity": "bookName",
+            "value": "Charade",
+            "end": 10
+          }
+        ],
+        "text": "Is Charade a good book?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 33,
+            "entity": "bookName",
+            "value": "Titmuss Regained",
+            "end": 49
+          }
+        ],
+        "text": "What do other people think about Titmuss Regained?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "bookName",
+            "value": "Under the Net",
+            "end": 33
+          }
+        ],
+        "text": "How many stars does Under the Net have?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "bookName",
+            "value": "Pale Fire",
+            "end": 16
+          }
+        ],
+        "text": "How is Pale Fire rated?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 34,
+            "entity": "bookName",
+            "value": "Fireflies",
+            "end": 43
+          }
+        ],
+        "text": "What is the general opinion about Fireflies?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "bookName",
+            "value": "The Sacred bookName of the Werewolf",
+            "end": 56
+          }
+        ],
+        "text": "How do others experience The Sacred book of the Werewolf?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "bookName",
+            "value": "my search for warren harding",
+            "end": 60
+          }
+        ],
+        "text": "How did other people experience my search for warren harding?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "bookName",
+            "value": "A Dance to the Music of Time",
+            "end": 54
+          }
+        ],
+        "text": "How did other people rate A Dance to the Music of Time?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "a time to be born",
+            "end": 36
+          }
+        ],
+        "text": "How do others rate a time to be born?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "bookName",
+            "value": "Excellent Women",
+            "end": 30
+          }
+        ],
+        "text": "Do people like Excellent Women?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "bookName",
+            "value": "Less Than Angels",
+            "end": 23
+          }
+        ],
+        "text": "How is Less Than Angels reviewed?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 3,
+            "entity": "bookName",
+            "value": "Zazie in the Metro",
+            "end": 21
+          }
+        ],
+        "text": "Is Zazie in the Metro well received?"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "bookName",
+            "value": "The Westminster Alice",
+            "end": 50
+          }
+        ],
+        "text": "Please give me the rating of The Westminster Alice"
+      },
+      {
+        "intent": "ratings",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "bookName",
+            "value": "Great Apes",
+            "end": 29
+          }
+        ],
+        "text": "Send the rating of Great Apes"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "authorName",
+            "value": "Kingsley Amis",
+            "end": 17
+          }
+        ],
+        "text": "Did Kingsley Amis write more books?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "authorName",
+            "value": "Martin Amis",
+            "end": 15
+          }
+        ],
+        "text": "Did Martin Amis write something else?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "authorName",
+            "value": "Julian Barnes",
+            "end": 17
+          }
+        ],
+        "text": "Did Julian Barnes write anything else?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "authorName",
+            "value": "Beryl Bainbridge",
+            "end": 25
+          }
+        ],
+        "text": "What did Beryl Bainbridge write?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "authorName",
+            "value": "Samuel Beckett",
+            "end": 28
+          }
+        ],
+        "text": "What else did Samuel Beckett write?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "authorName",
+            "value": "Max Beerbohm",
+            "end": 26
+          }
+        ],
+        "text": "What more did Max Beerbohm write?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "authorName",
+            "value": "Saul Bellow",
+            "end": 33
+          }
+        ],
+        "text": "What other series did Saul Bellow write?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "authorName",
+            "value": "Alan Bennett",
+            "end": 33
+          }
+        ],
+        "text": "What other books did Alan Bennett write?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "authorName",
+            "value": "EF Benson",
+            "end": 31
+          }
+        ],
+        "text": "What other novels did EF Benson write?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 22,
+            "entity": "authorName",
+            "value": "WE Bowman",
+            "end": 31
+          }
+        ],
+        "text": "What is the oeuvre of WE Bowman?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "authorName",
+            "value": "William Boyd",
+            "end": 42
+          }
+        ],
+        "text": "What is the complete works of William Boyd?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "authorName",
+            "value": "Malcolm Bradbury",
+            "end": 43
+          }
+        ],
+        "text": "Give the complete works of Malcolm Bradbury"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "authorName",
+            "value": "Peter Carey",
+            "end": 38
+          }
+        ],
+        "text": "Show the complete works of Peter Carey"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "authorName",
+            "value": "Leonora Carrington",
+            "end": 46
+          }
+        ],
+        "text": "Do you have more titles for Leonora Carrington?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "authorName",
+            "value": "Joyce Cary",
+            "end": 37
+          }
+        ],
+        "text": "Do you have more books for Joyce Cary?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "authorName",
+            "value": "Edmund Crispin",
+            "end": 42
+          }
+        ],
+        "text": "Do you have more novels for Edmund Crispin?"
+      },
+      {
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "authorName",
+            "value": "Peter De Vries",
+            "end": 43
+          }
+        ],
+        "text": "Please send me more books of Peter De Vries"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

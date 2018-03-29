@@ -1,0 +1,210 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Did Kingsley Amis write more books?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 4,
+            "end": 17,
+            "value": "Kingsley Amis",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Did Martin Amis write something else?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "Martin Amis",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Did Julian Barnes write anything else?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 4,
+            "end": 17,
+            "value": "Julian Barnes",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What did Beryl Bainbridge write?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Beryl Bainbridge",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What else did Samuel Beckett write?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "Samuel Beckett",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What more did Max Beerbohm write?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Max Beerbohm",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What other series did Saul Bellow write?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "Saul Bellow",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What other books did Alan Bennett write?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "Alan Bennett",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What other novels did EF Benson write?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "EF Benson",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What is the oeuvre of WE Bowman?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "WE Bowman",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "What is the complete works of William Boyd?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 30,
+            "end": 42,
+            "value": "William Boyd",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Give the complete works of Malcolm Bradbury",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 27,
+            "end": 43,
+            "value": "Malcolm Bradbury",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Show the complete works of Peter Carey",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "Peter Carey",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Do you have more titles for Leonora Carrington?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 28,
+            "end": 46,
+            "value": "Leonora Carrington",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Do you have more books for Joyce Cary?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "Joyce Cary",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Do you have more novels for Edmund Crispin?",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "Edmund Crispin",
+            "entity": "authorName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me more books of Peter De Vries",
+        "intent": "listBooksForAuthor",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "Peter De Vries",
+            "entity": "authorName"
+          }
+        ]
+      }
+    ]
+  }
+}

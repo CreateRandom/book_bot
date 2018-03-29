@@ -1,0 +1,438 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Who's the author of A Far Cry from Kensington?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 20,
+            "end": 45,
+            "value": "A Far Cry from Kensington",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who is the author of The Life and Opinions of Tristram Shandy, Gentleman?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 21,
+            "end": 72,
+            "value": "The Life and Opinions of Tristram Shandy, Gentleman",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me the author of white man falling",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "end": 39,
+            "value": "white man falling",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please tell me the author of Handley Cross",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 29,
+            "end": 42,
+            "value": "Handley Cross",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "I don't know the author of Tropic of Ruislip",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": "Tropic of Ruislip",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Tell me who the author of The Mysterious Stranger is",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "The Mysterious Stranger",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who's the novelist of Decline and Fall?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "Decline and Fall",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who is the novelist of scoop?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "scoop",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me the novelist of The Loved One",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "The Loved One",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please tell me the novelist of The Wimbledon Poisoner",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 31,
+            "end": 53,
+            "value": "The Wimbledon Poisoner",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "I don't know the novelist of Piccadilly Jim",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "Piccadilly Jim",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Tell me who the novelist of The Poisoned Chocolates Case is",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 28,
+            "end": 56,
+            "value": "The Poisoned Chocolates Case",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who's the creator of The Asphalt Jungle?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "The Asphalt Jungle",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who is the creator of No Orchids for Miss Blandish?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "end": 50,
+            "value": "No Orchids for Miss Blandish",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me the creator of The Riddle of the Sands",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 23,
+            "end": 46,
+            "value": "The Riddle of the Sands",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please tell me the creator of The Murder at the Vicarage",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 30,
+            "end": 56,
+            "value": "The Murder at the Vicarage",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "I don't know the creator of postmortem",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "postmortem",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Tell me who the creator of jurassic park is",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 27,
+            "end": 40,
+            "value": "jurassic park",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who's the inventor of Vendetta?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Vendetta",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who is the inventor of An American Tragedy?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 23,
+            "end": 42,
+            "value": "An American Tragedy",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me the inventor of The Big Nowhere?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "The Big Nowhere",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please tell me the inventor of Brighton Rock",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "Brighton Rock",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "I don't know the inventor of American Psycho",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 29,
+            "end": 44,
+            "value": "American Psycho",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Tell me who the inventor of The Glass Key is",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 28,
+            "end": 41,
+            "value": "The Glass Key",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who wrote The Thin Man?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "The Thin Man",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Which man or woman wrote black sunday?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "black sunday",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What woman wrote The Friends of Eddie Coyle?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 17,
+            "end": 43,
+            "value": "The Friends of Eddie Coyle",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the name of the person who wrote A Rage in Harlem?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 41,
+            "end": 57,
+            "value": "A Rage in Harlem",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What person wrote Cover Her Face?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 18,
+            "end": 32,
+            "value": "Cover Her Face",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who's book is The Constant Gardener?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 14,
+            "end": 35,
+            "value": "The Constant Gardener",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who's novel is Motherless Brooklyn?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 15,
+            "end": 34,
+            "value": "Motherless Brooklyn",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Who created Cop Hater?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Cop Hater",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Which man or woman created Nineteen Seventy Four?",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 27,
+            "end": 48,
+            "value": "Nineteen Seventy Four",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What women created The Laughing Policeman",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 19,
+            "end": 41,
+            "value": "The Laughing Policeman",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the name of the person who created The Daughter of Time",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 43,
+            "end": 63,
+            "value": "The Daughter of Time",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What person created The Face of Another",
+        "intent": "authors",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "The Face of Another",
+            "entity": "bookName"
+          }
+        ]
+      }
+    ]
+  }
+}

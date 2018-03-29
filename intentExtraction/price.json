@@ -1,0 +1,150 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What does Death and the Penguin cost?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 10,
+            "end": 31,
+            "value": "Death and the Penguin",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How much is The Debt to Pleasure",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "The Debt to Pleasure",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How much do I have to pay for changing places?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 30,
+            "end": 45,
+            "value": "changing places",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How much does Nice Work cost?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Nice Work",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the cost of The Towers of Trebizond?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 43,
+            "value": "The Towers of Trebizond",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the price of England, Their England?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 21,
+            "end": 43,
+            "value": "England, Their England",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the cost of whisky galore?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "whisky galore",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the price of memoirs of a gnostic dwarf?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 20,
+            "end": 46,
+            "value": "memoirs of a gnostic dwarf",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How much money do I need to buy Tales of the City?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 32,
+            "end": 49,
+            "value": "Tales of the City",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "At how much is Bright Lights, Big City priced?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "Bright Lights, Big City",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How expensive is Puckoon?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Puckoon",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "How costly is The Restraint of Beasts?",
+        "intent": "price",
+        "entities": [
+          {
+            "start": 14,
+            "end": 37,
+            "value": "The Restraint of Beasts",
+            "entity": "bookName"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,762 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What is the summary of Lucky Jim?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Lucky Jim",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the summary of Money?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Money",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the summary of the information",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 42,
+            "value": "the information",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the summary of The Bottle Factory Outing",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 30,
+            "end": 55,
+            "value": "The Bottle Factory Outing",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the summary of According to Queeney",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 43,
+            "value": "According to Queeney",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a summary of Flaubert’s Parrot",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 38,
+            "value": "Flaubert’s Parrot",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the content of A History of the World in 10 1/2 Chapters?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 64,
+            "value": "A History of the World in 10 1/2 Chapters",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the content of Molloy?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Molloy",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the content of Zuleika Dobson",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "Zuleika Dobson",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the content of The Adventures of Augie March",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 30,
+            "end": 59,
+            "value": "The Adventures of Augie March",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the content of The Uncommon Reader",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 42,
+            "value": "The Uncommon Reader",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a content of Queen Lucia",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Queen Lucia",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the short version of The Ascent of Rum Doodle?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "end": 53,
+            "value": "The Ascent of Rum Doodle",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the short version of A Good Man in Africa?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "end": 48,
+            "value": "A Good Man in Africa",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the short version of The History Man",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 33,
+            "end": 48,
+            "value": "The History Man",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the short version of No Bed for Bacon",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "No Bed for Bacon",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the short version of Illywhacker",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "Illywhacker",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a short version of A Season in Sinji",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": "A Season in Sinji",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the story of The Harpole Report?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "The Harpole Report",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the story of The Hearing Trumpet?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "The Hearing Trumpet",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the story of Mister Johnson",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 39,
+            "value": "Mister Johnson",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the story of The Horse’s Mouth",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "end": 45,
+            "value": "The Horse’s Mouth",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the story of Don Quixote",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Don Quixote",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a story of The Case of the Gilded Fly",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 45,
+            "value": "The Case of the Gilded Fly",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the storyline of Just William?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "Just William",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the storyline of The Provincial Lady?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "end": 43,
+            "value": "The Provincial Lady",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the storyline of Slouching Towards Kalamazoo",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "end": 56,
+            "value": "Slouching Towards Kalamazoo",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the storyline of The Pickwick Papers",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 32,
+            "end": 51,
+            "value": "The Pickwick Papers",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the storyline of Martin Chuzzlewit",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 42,
+            "value": "Martin Chuzzlewit",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a storyline of Jacques the Fatalist and his Master",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 58,
+            "value": "Jacques the Fatalist and his Master",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the topic of A Fairy Tale of New York?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 45,
+            "value": "A Fairy Tale of New York",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the topic of The Commitments?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "The Commitments",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the topic of Ennui",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Ennui",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the topic of Bridget Jones’s Diary",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "end": 49,
+            "value": "Bridget Jones’s Diary",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the topic of Joseph Andrews",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "Joseph Andrews",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a topic of Tom Jones",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Tom Jones",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the abstract of Caprice?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Caprice",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the abstract of Bouvard et Pécuchet?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 42,
+            "value": "Bouvard et Pécuchet",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the abstract of Towards the End of the Morning",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "Towards the End of the Morning",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the abstract of The Polygots",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "The Polygots",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the abstract of Cold Comfort Farm",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "end": 41,
+            "value": "Cold Comfort Farm",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a abstract of Dead Souls",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "Dead Souls",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the description of Oblomov?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Oblomov",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the description of The Wind in the Willows?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "The Wind in the Willows",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the description of Brewster’s Millions",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 50,
+            "value": "Brewster’s Millions",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the description of Squire Haggard’s Journal",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 34,
+            "end": 58,
+            "value": "Squire Haggard’s Journal",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the description of Our Man in Havana",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": "Our Man in Havana",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a description of Travels with My Aunt",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 45,
+            "value": "Travels with My Aunt",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is the highlight of Diary of a Nobody?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 42,
+            "value": "Diary of a Nobody",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the highlight of The Little World of Don Camillo?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "end": 55,
+            "value": "The Little World of Don Camillo",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send the highlight of The Curious Incident of the Dog in the Night-time",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 29,
+            "end": 78,
+            "value": "The Curious Incident of the Dog in the Night-time",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please send me the highlight of Catch-22",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Catch-22",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Send me the highlight of Mr Blandings Builds His Dream House",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 60,
+            "value": "Mr Blandings Builds His Dream House",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Give me a highlight of High Fidelity",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "High Fidelity",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What is I Served the King of England about?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 8,
+            "end": 36,
+            "value": "I Served the King of England",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What happens in The Lecturer’s Tale?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 16,
+            "end": 35,
+            "value": "The Lecturer’s Tale",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What happens in the book Mr Norris Changes Trains?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 49,
+            "value": "Mr Norris Changes Trains",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "What's the story of The Mighty Walzer Howard about?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "end": 44,
+            "value": "The Mighty Walzer Howard",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Could you tell me about Pictures from an Institution?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "end": 52,
+            "value": "Pictures from an Institution",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Do you have anything on Three Men in a Boat?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 24,
+            "end": 43,
+            "value": "Three Men in a Boat",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Do you have information about Finnegans Wake?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 30,
+            "end": 44,
+            "value": "Finnegans Wake",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Do you have info on The Castle?",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "The Castle",
+            "entity": "bookName"
+          }
+        ]
+      },
+      {
+        "text": "Please tell me about Lake Wobegon Days",
+        "intent": "summary",
+        "entities": [
+          {
+            "start": 21,
+            "end": 38,
+            "value": "Lake Wobegon Days",
+            "entity": "bookName"
+          }
+        ]
+      }
+    ]
+  }
+}
