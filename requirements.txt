@@ -1,4 +1,4 @@
-requests==2.9.1
+requests==2.20.1
 rasa_nlu==0.11.4
 spacy==2.0.5
 neuralcoref==0.1
